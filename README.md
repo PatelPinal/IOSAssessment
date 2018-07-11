@@ -21,13 +21,19 @@ No dependences required.
 
 
 ### Project Overview
+Controllers:
+* `NewsListTableViewController.swift` - initial scene with NewsFeeds
+* `DetailNewsViewController.swift` - scene contains detailed News  
+Models:
 * `News.swift` - Data model with the information we want to show in the app.
 * `NYTimesAPI.swift` - Responsible for creating URL's and Validate API response data
-* `NewsStore.swift` - Important class acts as Interface for providing data for any viewcontroller
+* `NewsStore.swift` - Important class acts as Interface for providing data for any viewcontroller  
+Views:
+* `NewsListTableViewCell.swift` - customcell for newsFNewsFeeds  
+Networking:
 * `NetworkManager.swift` - Handles the Request for NYTimes API
-* `NewsListTableViewController.swift` - initial scene with NewsFeeds
-* `NewsListTableViewCell.swift` - customcell for newsFNewsFeeds
-* `DetailNewsViewController.swift` - scene contains detailed News.
+
+
 
 ### Unit Test
 * `NYTimesTests.swift` - Unit test class with simple DataModel initializationTest.
