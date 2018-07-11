@@ -21,10 +21,10 @@ No dependences required.
 
 
 ### Project Overview
-Controllers:
+
 * `NewsListTableViewController.swift` - initial scene with NewsFeeds
 * `DetailNewsViewController.swift` - scene contains detailed News  
-Models:
+Models:  
 * `News.swift` - Data model with the information we want to show in the app.
 * `NYTimesAPI.swift` - Responsible for creating URL's and Validate API response data
 * `NewsStore.swift` - Important class acts as Interface for providing data for any viewcontroller  
