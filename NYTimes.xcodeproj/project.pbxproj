@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E0DF1320F60D1300E278D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF1220F60D1300E278D7 /* AppDelegate.swift */; };
+		71E0DF1820F60D1300E278D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E0DF1620F60D1300E278D7 /* Main.storyboard */; };
+		71E0DF1A20F60D1300E278D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E0DF1920F60D1300E278D7 /* Assets.xcassets */; };
+		71E0DF1D20F60D1300E278D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E0DF1B20F60D1300E278D7 /* LaunchScreen.storyboard */; };
+		71E0DF2820F60D1300E278D7 /* NYTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF2720F60D1300E278D7 /* NYTimesTests.swift */; };
+		71E0DF3A20F6115100E278D7 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF3920F6115100E278D7 /* NewsListTableViewController.swift */; };
+		71E0DF3C20F619C400E278D7 /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF3B20F619C400E278D7 /* NewsListTableViewCell.swift */; };
+		71E0DF3E20F63C2700E278D7 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF3D20F63C2700E278D7 /* News.swift */; };
+		71E0DF4020F6476700E278D7 /* NewsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF3F20F6476700E278D7 /* NewsStore.swift */; };
+		71E0DF4220F6483900E278D7 /* NYTimesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF4120F6483900E278D7 /* NYTimesAPI.swift */; };
+		71E0DF4520F64D9000E278D7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF4420F64D9000E278D7 /* NetworkManager.swift */; };
+		71E0DF4720F679EB00E278D7 /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0DF4620F679EB00E278D7 /* DetailNewsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E0DF2420F60D1300E278D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E0DF0720F60D1300E278D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E0DF0E20F60D1300E278D7;
+			remoteInfo = NYTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71E0DF0F20F60D1300E278D7 /* NYTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E0DF1220F60D1300E278D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E0DF1720F60D1300E278D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E0DF1920F60D1300E278D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E0DF1C20F60D1300E278D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71E0DF1E20F60D1300E278D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E0DF2320F60D1300E278D7 /* NYTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E0DF2720F60D1300E278D7 /* NYTimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesTests.swift; sourceTree = "<group>"; };
+		71E0DF2920F60D1300E278D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E0DF3920F6115100E278D7 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		71E0DF3B20F619C400E278D7 /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
+		71E0DF3D20F63C2700E278D7 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		71E0DF3F20F6476700E278D7 /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStore.swift; sourceTree = "<group>"; };
+		71E0DF4120F6483900E278D7 /* NYTimesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesAPI.swift; sourceTree = "<group>"; };
+		71E0DF4420F64D9000E278D7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		71E0DF4620F679EB00E278D7 /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E0DF0C20F60D1300E278D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E0DF2020F60D1300E278D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E0DF0620F60D1300E278D7 = {
+			isa = PBXGroup;
+			children = (
+				71E0DF1120F60D1300E278D7 /* NYTimes */,
+				71E0DF2620F60D1300E278D7 /* NYTimesTests */,
+				71E0DF1020F60D1300E278D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71E0DF1020F60D1300E278D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF0F20F60D1300E278D7 /* NYTimes.app */,
+				71E0DF2320F60D1300E278D7 /* NYTimesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E0DF1120F60D1300E278D7 /* NYTimes */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF3520F60F4D00E278D7 /* App */,
+				71E0DF3220F60E0A00E278D7 /* Controllers */,
+				71E0DF3320F60E0A00E278D7 /* Models */,
+				71E0DF4320F64D7700E278D7 /* Networking */,
+				71E0DF3420F60E0A00E278D7 /* Views */,
+			);
+			path = NYTimes;
+			sourceTree = "<group>";
+		};
+		71E0DF2620F60D1300E278D7 /* NYTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF2720F60D1300E278D7 /* NYTimesTests.swift */,
+				71E0DF2920F60D1300E278D7 /* Info.plist */,
+			);
+			path = NYTimesTests;
+			sourceTree = "<group>";
+		};
+		71E0DF3220F60E0A00E278D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF3920F6115100E278D7 /* NewsListTableViewController.swift */,
+				71E0DF4620F679EB00E278D7 /* DetailNewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71E0DF3320F60E0A00E278D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF3D20F63C2700E278D7 /* News.swift */,
+				71E0DF3F20F6476700E278D7 /* NewsStore.swift */,
+				71E0DF4120F6483900E278D7 /* NYTimesAPI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71E0DF3420F60E0A00E278D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF3B20F619C400E278D7 /* NewsListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71E0DF3520F60F4D00E278D7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF3720F60F4D00E278D7 /* AppDelegate */,
+				71E0DF3620F60F4D00E278D7 /* Resources */,
+				71E0DF3820F60F4D00E278D7 /* SupportingFiles */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		71E0DF3620F60F4D00E278D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF1920F60D1300E278D7 /* Assets.xcassets */,
+				71E0DF1B20F60D1300E278D7 /* LaunchScreen.storyboard */,
+				71E0DF1620F60D1300E278D7 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71E0DF3720F60F4D00E278D7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF1220F60D1300E278D7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		71E0DF3820F60F4D00E278D7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF1E20F60D1300E278D7 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		71E0DF4320F64D7700E278D7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				71E0DF4420F64D9000E278D7 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E0DF0E20F60D1300E278D7 /* NYTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E0DF2C20F60D1300E278D7 /* Build configuration list for PBXNativeTarget "NYTimes" */;
+			buildPhases = (
+				71E0DF0B20F60D1300E278D7 /* Sources */,
+				71E0DF0C20F60D1300E278D7 /* Frameworks */,
+				71E0DF0D20F60D1300E278D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYTimes;
+			productName = NYTimes;
+			productReference = 71E0DF0F20F60D1300E278D7 /* NYTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E0DF2220F60D1300E278D7 /* NYTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E0DF2F20F60D1300E278D7 /* Build configuration list for PBXNativeTarget "NYTimesTests" */;
+			buildPhases = (
+				71E0DF1F20F60D1300E278D7 /* Sources */,
+				71E0DF2020F60D1300E278D7 /* Frameworks */,
+				71E0DF2120F60D1300E278D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E0DF2520F60D1300E278D7 /* PBXTargetDependency */,
+			);
+			name = NYTimesTests;
+			productName = NYTimesTests;
+			productReference = 71E0DF2320F60D1300E278D7 /* NYTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E0DF0720F60D1300E278D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dinesh Kumar";
+				TargetAttributes = {
+					71E0DF0E20F60D1300E278D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					71E0DF2220F60D1300E278D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71E0DF0E20F60D1300E278D7;
+					};
+				};
+			};
+			buildConfigurationList = 71E0DF0A20F60D1300E278D7 /* Build configuration list for PBXProject "NYTimes" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E0DF0620F60D1300E278D7;
+			productRefGroup = 71E0DF1020F60D1300E278D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E0DF0E20F60D1300E278D7 /* NYTimes */,
+				71E0DF2220F60D1300E278D7 /* NYTimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E0DF0D20F60D1300E278D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0DF1D20F60D1300E278D7 /* LaunchScreen.storyboard in Resources */,
+				71E0DF1A20F60D1300E278D7 /* Assets.xcassets in Resources */,
+				71E0DF1820F60D1300E278D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E0DF2120F60D1300E278D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E0DF0B20F60D1300E278D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0DF3A20F6115100E278D7 /* NewsListTableViewController.swift in Sources */,
+				71E0DF4220F6483900E278D7 /* NYTimesAPI.swift in Sources */,
+				71E0DF3C20F619C400E278D7 /* NewsListTableViewCell.swift in Sources */,
+				71E0DF4520F64D9000E278D7 /* NetworkManager.swift in Sources */,
+				71E0DF4720F679EB00E278D7 /* DetailNewsViewController.swift in Sources */,
+				71E0DF4020F6476700E278D7 /* NewsStore.swift in Sources */,
+				71E0DF3E20F63C2700E278D7 /* News.swift in Sources */,
+				71E0DF1320F60D1300E278D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E0DF1F20F60D1300E278D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0DF2820F60D1300E278D7 /* NYTimesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E0DF2520F60D1300E278D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E0DF0E20F60D1300E278D7 /* NYTimes */;
+			targetProxy = 71E0DF2420F60D1300E278D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E0DF1620F60D1300E278D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E0DF1720F60D1300E278D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E0DF1B20F60D1300E278D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E0DF1C20F60D1300E278D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E0DF2A20F60D1300E278D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71E0DF2B20F60D1300E278D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E0DF2D20F60D1300E278D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NYTimes/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineshkumar.NYTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E0DF2E20F60D1300E278D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NYTimes/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineshkumar.NYTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71E0DF3020F60D1300E278D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NYTimesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineshkumar.NYTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimes.app/NYTimes";
+			};
+			name = Debug;
+		};
+		71E0DF3120F60D1300E278D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NYTimesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dineshkumar.NYTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NYTimes.app/NYTimes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E0DF0A20F60D1300E278D7 /* Build configuration list for PBXProject "NYTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0DF2A20F60D1300E278D7 /* Debug */,
+				71E0DF2B20F60D1300E278D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E0DF2C20F60D1300E278D7 /* Build configuration list for PBXNativeTarget "NYTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0DF2D20F60D1300E278D7 /* Debug */,
+				71E0DF2E20F60D1300E278D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E0DF2F20F60D1300E278D7 /* Build configuration list for PBXNativeTarget "NYTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E0DF3020F60D1300E278D7 /* Debug */,
+				71E0DF3120F60D1300E278D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E0DF0720F60D1300E278D7 /* Project object */;
+}
